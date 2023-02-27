@@ -145,6 +145,7 @@ section.about .social {
 }
 section.about .social a {
   /* background:var(--dark); */
+  color: blue;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -166,7 +167,8 @@ section.about .social a {
 }
 section.about .social a:hover {
   /* background: var(--primary); */
-  background: rgb(194, 134, 221);
+  background: blue;
+  color: white;
   border-radius: 100%;
 }
 /* section.about .social a img {
@@ -643,4 +645,12 @@ footer .copyright {
   section.contact .input-wrap {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+.footer-socials a{
+  color: white;
+  
+  
+}
+.footer-socials a :hover{
+  color: cyan;
 }
